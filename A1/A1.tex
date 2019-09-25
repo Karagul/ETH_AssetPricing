@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{verbatim}
+\usepackage{scrextend}
+\usepackage{changepage}
+\usepackage{lineno}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{question}[theorem]{Question}
+%\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\newcommand{\red}{\color{red}}
+\newcommand{\me}[1]{{\textcolor{blue}{ [\textbf{M.E.:}}\  \textcolor{blue}{{\em #1}]}}}
+\newcommand{\al}[1]{{\textcolor{red}{ [\textbf{AA:}}\  \textcolor{red}{{\em #1}]}}}
+\newcommand{\wfk}[1]{{\textcolor{green}{ [\textbf{WFK:}}\  \textcolor{green}{{\em #1}]}}}
+\setlength{\droptitle}{-5em}
+\setlength{\parindent}{0cm}
+\title{Asset Pricing: Assignment 1}
+\author{Alejandro Angeli Ayello\\{ angelia@ethz.ch}}
+
+%\date{}
+
+\begin{document}
+\maketitle
+\section{Problem 1.1: Fair Games}
+State whether each of the following statements is true or false. Provide a proof if the statement is true or a counterexample if the statement is false.
+\subsection{Part (a):}
+\textit{If X is a fair game with respect to Y, and Y is a fair game with respect to X
+, then X and Y are independent.}
+
+The above statement is false. For a counter example consider two independent random variables $X$ and $Z$ with probability mass function $p_X$ and $p_Z$, give as follows
+
+$$p_X(u) = p_Z(u) = 
+\left\{ 
+\begin{array}{ll}
+0.5& \text{for } u\in\{-1, 1\}\\
+0 & \text{o/w}
+\end{array}\right.
+$$
+
+\end{array} 
+
+
+
+\end{document} 

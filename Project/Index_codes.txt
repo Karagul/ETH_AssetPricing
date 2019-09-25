@@ -1,0 +1,8 @@
+102456 Dow Jones Industrial Average - DJX
+102480 NASDAQ 100 Index - NDX
+102491 CBOE Mini-NDX Index - MNX
+101499 AMEX Major Market Index - XMI
+108105 S&P 500 Index - SPX
+109764 S&P 100 Index - OEX
+101507 S&P Midcap 400 Index - MID
+102442 S&P Smallcap 600 Index - SML
